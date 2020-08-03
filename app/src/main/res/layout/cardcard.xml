@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp">
+<ImageView
+    android:layout_width="0dp"
+    android:layout_weight="1"
+    android:layout_height="60dp"
+    android:src="@drawable/ic_shop"/>
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="60dp"
+        android:src="@drawable/ic_chat_box"/>
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_weight="2"
+        android:text="@string/st9"/>
+    <Button
+        android:layout_width="0dp"
+        android:layout_weight="2"
+        android:text="@string/st10"
+        android:textColor="@color/colorWhite"
+        android:layout_height="60dp"
+        android:background="@color/colorOrange"/>
+</androidx.appcompat.widget.LinearLayoutCompat>
